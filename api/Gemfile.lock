@@ -187,6 +187,7 @@ GEM
     minitest (5.7.0)
     multi_json (1.11.2)
     multi_xml (0.5.5)
+    mysql2 (0.3.18)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
     orm_adapter (0.5.0)
@@ -346,6 +347,7 @@ DEPENDENCIES
   grape-swagger-rails
   jquery-rails
   meta_request
+  mysql2
   pg
   poltergeist
   pry-nav
