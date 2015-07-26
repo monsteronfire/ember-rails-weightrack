@@ -1,1 +1,0 @@
-/Users/shaii/Projects/ember-rails-weightrack/front-end/tmp/caching-writer-dest-dir_TZb1i3.tmp/assets/vendor.js

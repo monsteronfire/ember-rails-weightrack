@@ -1,1 +1,0 @@
-/Users/shaii/Projects/ember-rails-weightrack/front-end/tmp/tree_merger-tmp_dest_dir-GSanYO2a.tmp/bower_components/ember-cli-test-loader/test-loader.js

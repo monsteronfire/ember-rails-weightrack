@@ -1,4 +1,0 @@
-module('JSHint - unit/routes/contacts');
-test('unit/routes/contacts/index-test.js should pass jshint', function() { 
-  ok(true, 'unit/routes/contacts/index-test.js should pass jshint.'); 
-});

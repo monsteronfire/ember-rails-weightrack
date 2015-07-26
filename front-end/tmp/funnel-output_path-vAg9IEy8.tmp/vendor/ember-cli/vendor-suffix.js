@@ -1,1 +1,0 @@
-/Users/shaii/Projects/ember-rails-weightrack/front-end/tmp/custom_replace-tmp_dest_dir-QfIJj3lS.tmp/vendor-suffix.js
