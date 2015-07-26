@@ -1,0 +1,1 @@
+/Users/shaii/Projects/ember-rails-weightrack/front-end/tmp/babel-cache_path-esK0Czah.tmp/front-end/tests/unit/adapters/application-test.js

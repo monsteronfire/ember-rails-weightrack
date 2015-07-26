@@ -1,0 +1,1 @@
+/Users/shaii/Projects/ember-rails-weightrack/front-end/bower_components/ember-cli-test-loader/test-loader.js

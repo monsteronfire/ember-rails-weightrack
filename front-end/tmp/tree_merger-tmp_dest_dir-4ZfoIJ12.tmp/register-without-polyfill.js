@@ -1,0 +1,1 @@
+/Users/shaii/Projects/ember-rails-weightrack/front-end/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/register-without-polyfill.js

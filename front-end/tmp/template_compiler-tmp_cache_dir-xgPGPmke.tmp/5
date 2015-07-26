@@ -1,0 +1,72 @@
+export default Ember.HTMLBars.template((function() {
+  return {
+    meta: {
+      "revision": "Ember@1.13.3",
+      "loc": {
+        "source": null,
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 15,
+          "column": 4
+        }
+      },
+      "moduleName": "front-end/templates/contact.hbs"
+    },
+    arity: 0,
+    cachedFragment: null,
+    hasRendered: false,
+    buildFragment: function buildFragment(dom) {
+      var el0 = dom.createDocumentFragment();
+      var el1 = dom.createElement("h1");
+      var el2 = dom.createTextNode(" ");
+      dom.appendChild(el1, el2);
+      dom.appendChild(el0, el1);
+      var el1 = dom.createTextNode("\n\n");
+      dom.appendChild(el0, el1);
+      var el1 = dom.createElement("dl");
+      var el2 = dom.createTextNode("\n  ");
+      dom.appendChild(el1, el2);
+      var el2 = dom.createElement("dt");
+      var el3 = dom.createTextNode("Email");
+      dom.appendChild(el2, el3);
+      dom.appendChild(el1, el2);
+      var el2 = dom.createTextNode("\n  ");
+      dom.appendChild(el1, el2);
+      var el2 = dom.createElement("dd");
+      dom.appendChild(el1, el2);
+      var el2 = dom.createTextNode("\n\n  ");
+      dom.appendChild(el1, el2);
+      var el2 = dom.createElement("dt");
+      var el3 = dom.createTextNode("Title");
+      dom.appendChild(el2, el3);
+      dom.appendChild(el1, el2);
+      var el2 = dom.createTextNode("\n  ");
+      dom.appendChild(el1, el2);
+      var el2 = dom.createElement("dd");
+      dom.appendChild(el1, el2);
+      var el2 = dom.createTextNode("\n");
+      dom.appendChild(el1, el2);
+      dom.appendChild(el0, el1);
+      var el1 = dom.createTextNode("\n\n");
+      dom.appendChild(el0, el1);
+      var el1 = dom.createElement("p");
+      var el2 = dom.createTextNode("\n  Updated at: \n  ");
+      dom.appendChild(el1, el2);
+      var el2 = dom.createElement("br");
+      dom.appendChild(el1, el2);
+      var el2 = dom.createTextNode("\n  Created at: \n");
+      dom.appendChild(el1, el2);
+      dom.appendChild(el0, el1);
+      return el0;
+    },
+    buildRenderNodes: function buildRenderNodes() { return []; },
+    statements: [
+
+    ],
+    locals: [],
+    templates: []
+  };
+}()));

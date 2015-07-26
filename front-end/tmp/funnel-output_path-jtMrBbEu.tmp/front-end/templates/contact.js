@@ -1,0 +1,1 @@
+/Users/shaii/Projects/ember-rails-weightrack/front-end/tmp/tree_merger-tmp_dest_dir-2HnhGaze.tmp/front-end/templates/contact.js

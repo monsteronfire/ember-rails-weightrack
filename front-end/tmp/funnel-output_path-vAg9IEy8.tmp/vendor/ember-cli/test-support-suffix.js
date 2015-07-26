@@ -1,0 +1,1 @@
+/Users/shaii/Projects/ember-rails-weightrack/front-end/tmp/custom_replace-tmp_dest_dir-QfIJj3lS.tmp/test-support-suffix.js

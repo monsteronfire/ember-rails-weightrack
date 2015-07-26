@@ -1,0 +1,1 @@
+/Users/shaii/Projects/ember-rails-weightrack/front-end/tmp/funnel-output_path-7V5CHOrT.tmp/qunit/qunit/qunit.js
