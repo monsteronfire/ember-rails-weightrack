@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
+  mount_ember_app :frontend, to: "/"
+
   root to: 'ember#bootstrap'
-  # root 'ember#bootstrap'
-  get '/*path' => 'ember#bootstrap'
-  # get '/:all', to: 'ember#bootstrap'
+ 
+  # get '/*path' => 'ember#bootstrap'
+  get '/:all', to: 'ember#bootstrap'
 end
