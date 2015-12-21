@@ -1,4 +1,5 @@
-<h3>Weights!</h3>
-{{#each}}
-  {{weight.name}}
-{{/each}}
+<ul>
+  {{#each weights as |weight|}}
+    <li>{{link-to name 'weights.show' this}}</li>
+  {{/each}}
+</ul>
