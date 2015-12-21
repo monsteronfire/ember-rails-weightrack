@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Weight.create(name: '40kg')
+Weight.create(name: '43kg')
+Weight.create(name: '47kg')
+Weight.create(name: '52kg')
+Weight.create(name: '55kg')

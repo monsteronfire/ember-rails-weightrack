@@ -107,3 +107,28 @@ Rails.application.config.assets.precompile += %w[ frontend.css ]
 
 ##### Run the Rails Server
 Run `rails server` and you should see the ember template appear at `http://localhost:3000`, without having to start an ember server in the frontend (ember) directory.
+
+##### Adding Navigation to the Ember Frontend
+In `frontend/app/router.js`, add routes for your pages
+```javascript
+Router.map(function() {
+  this.route('about');
+});
+```
+
+Add the navigation links to the view by going to `frontend/app/templates/application.hbs` and adding the following and the top of the page, before the `{{outlet}}`:
+```hbs
+<nav class="main-site-nav">
+  <ul class="nav-link-list">
+    <li><a id="main-site-logo" href="/">Logo</a></li>
+    <li>{{link-to 'About' 'about'}}</li>
+    <li></li>
+  </ul>
+</nav>
+```
+
+##### Create the template page
+Create the `about` template:
+```zsh
+touch frontend/app/templates/about.hbs
+```

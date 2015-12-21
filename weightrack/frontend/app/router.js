@@ -6,7 +6,10 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  // this.resource('todos', { path: '/' });
+  this.route('about');
+  this.resource('weights', function() {
+    this.route('show', {path: ':weight_id'});
+  });
 });
 
 export default Router;
