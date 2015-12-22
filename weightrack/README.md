@@ -132,3 +132,41 @@ Create the `about` template:
 ```zsh
 touch frontend/app/templates/about.hbs
 ```
+
+Set up adapter so that ember-data can make requests, namespaced under `api` to our server
+```javascript
+// frontend/app/adapters/application.js
+
+import DS from 'ember-data';
+
+export default DS.ActiveModelAdapter.extend({
+  namespace: 'api'
+});
+```
+
+Add the `weights` resource to `frontend/app/router.js`:
+```javascript
+Router.map(function() {
+  this.route('about');
+  this.resource('weights');
+});
+```
+
+Update the navigation in `frontend/app/templates/application.hbs` to include weights page:
+```hbs
+<nav class="main-site-nav">
+  <ul class="nav-link-list">
+    <li><a id="main-site-logo" href="/">Logo</a></li>
+    <li>{{link-to 'About' 'about'}}</li>
+    <li>{{link-to 'Weights' 'weights'}}</li>
+  </ul>
+</nav>
+```
+
+Update `frontend/app/templates/weights.hbs` to have an `{{outlet}}`
+```hbs
+<h3>Weights</h3>
+
+{{outlet}}
+```
+
