@@ -1,16 +1,6 @@
 // @import './frontend/**/*';
 
-@import 'bourbon';
-
-html {
-  min-height: 100%;
-}
-
-body {
-  height: 100%;
-  @include linear-gradient(#1e5799, #2989d8);
-}
-
-h3 {
-  @include border-color(red green null blue);
-}
+@import '0-plugins/plugins-dir.scss';
+@import '1-base/base-dir.scss';
+@import '2-modules/modules-dir.scss';
+@import '3-layouts/layouts-dir.scss';
