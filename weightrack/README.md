@@ -170,3 +170,39 @@ Update `frontend/app/templates/weights.hbs` to have an `{{outlet}}`
 {{outlet}}
 ```
 
+#####Setting up Bourbon
+[Bourbon](http://bourbon.io/) is a library of Sass mixins, we are going to try use it in place of Bootstrap or Foundation.
+In the `Gemfile`, add
+```ruby
+gem 'bourbon'
+```
+
+In your rails root directory, run
+```zsh
+bundle install
+```
+
+######Set up SCSS folder structure
+Create the following directories and files:
+```zsh
+mkdir -p app/assets/stylesheets/{0-plugins, 1-base, 2-modules, 3-layouts}
+
+touch app/assets/stylesheets/0-plugins/plugins-dir.scss
+touch app/assets/stylesheets/1-base/base-dir.scss
+touch app/assets/stylesheets/2-modules/modules-dir.scss
+touch app/assets/stylesheets/3-layouts/layouts-dir.scss
+```
+Import them the newly created scss files into `frontend.scss`
+```scss
+// @import './frontend/**/*';
+
+@import '0-plugins/plugins-dir.scss';
+@import '1-base/base-dir.scss';
+@import '2-modules/modules-dir.scss';
+@import '3-layouts/layouts-dir.scss';
+```
+
+In the file `app/assets/stylesheets/0-plugins/plugins-dir.scss`, import `bourbon.scss`
+```scss
+@import 'bourbon';
+```
