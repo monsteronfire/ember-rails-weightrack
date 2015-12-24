@@ -76,6 +76,9 @@ GEM
     mime-types (2.99)
     mini_portile2 (2.0.0)
     minitest (5.8.3)
+    neat (1.7.2)
+      bourbon (>= 4.0)
+      sass (>= 3.3)
     nokogiri (1.6.7.1)
       mini_portile2 (~> 2.0.0.rc2)
     orm_adapter (0.5.0)
@@ -143,6 +146,7 @@ DEPENDENCIES
   bourbon
   devise
   ember-cli-rails
+  neat
   rails (= 4.2.0)
   sass-rails (~> 5.0)
   sqlite3
