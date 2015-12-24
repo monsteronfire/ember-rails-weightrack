@@ -8,7 +8,7 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('about');
   this.resource('weights', function() {
-    this.route('show', {path: ':weight_id'});
+    this.route('weights', {path: ':weight_id'});
   });
 });
 

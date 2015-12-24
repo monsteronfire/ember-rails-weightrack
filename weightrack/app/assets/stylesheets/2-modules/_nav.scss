@@ -1,0 +1,7 @@
+section {
+  @include outer-container;
+}
+
+.nav-link-list li {
+  @include span-columns(3);
+}
