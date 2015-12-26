@@ -2,6 +2,10 @@ section {
   @include outer-container;
 }
 
+.nav-link-list {
+  @include clearfix;
+}
+
 .nav-link-list li {
   @include span-columns(3);
 }
