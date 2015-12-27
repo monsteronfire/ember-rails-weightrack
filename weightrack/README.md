@@ -1,5 +1,8 @@
 ## Ember on Rails - Weightrack
-Adds ember-cli to an existing rails project, following [this guide](http://nandovieira.com/setting-up-emberjs-with-rails-ember-cli-edition).
+Adds ember-cli to an existing rails project, following [this guide](http://nandovieira.com/setting-up-emberjs-with-rails-ember-cli-edition). Generate a rails app if you need one:
+```zsh
+rails new projectName 
+```
 
 ##### Installing Gems
 First, clean up the Gemfile by removing `turbolinks` and `jqueryujs`. Include the `ember-cli-rails` gem:
@@ -11,13 +14,14 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'ember-cli-rails'
 ```
+Note: I've found that turbolinks can affect the way JavaScript (jQuery, Angular, Ember, etc.) works in a rails app.
 
 To install dependencies, run
 ```zsh
 bundle install
 ```
 
-##### Setting up Rails App in preparation for Ember
+##### Configuring Rails App in preparation for Ember
 
 To generate the file `config/initializers/ember.rb`, run
 ```zsh
@@ -206,3 +210,4 @@ In the file `app/assets/stylesheets/0-plugins/plugins-dir.scss`, import `bourbon
 ```scss
 @import 'bourbon';
 ```
+
