@@ -98,6 +98,8 @@ Create a new file at `frontend/app/templates/index.hbs` to see that the implemen
 <p>Hello World, it works!</p>
 ```
 
+Then, restart your rails server for changes to take effect.
+
 ##### Ember CSS
 Create the file `app/assets/stylesheets/frontend.scss` and add the following include:
 ```scss
