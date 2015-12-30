@@ -30,8 +30,8 @@ rails g ember:init
 
 In `config/initializers/ember.rb`, set up the Ember app:
 ```ruby
-EmberCLI.configure do |config|
-  config.app :frontend, path: Rails.root.join('frontend').to_s
+EmberCLI.configure do |c|
+  c.app :frontend, path: Rails.root.join('frontend').to_s
 end
 ```
 
