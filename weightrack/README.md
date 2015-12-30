@@ -25,7 +25,7 @@ bundle install
 
 To generate the file `config/initializers/ember.rb`, run
 ```zsh
-rails g ember-cli:init
+rails g ember:init
 ```
 
 In `config/initializers/ember.rb`, set up the Ember app:
